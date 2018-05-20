@@ -1,0 +1,11 @@
+/home/pepe/Code/GameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.deps.json
+/home/pepe/Code/GameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.runtimeconfig.json
+/home/pepe/Code/GameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.runtimeconfig.dev.json
+/home/pepe/Code/GameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.dll
+/home/pepe/Code/GameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.pdb
+/home/pepe/Code/GameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.csprojResolveAssemblyReference.cache
+/home/pepe/Code/GameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.csproj.CoreCompileInputs.cache
+/home/pepe/Code/GameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.AssemblyInfoInputs.cache
+/home/pepe/Code/GameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.AssemblyInfo.cs
+/home/pepe/Code/GameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.dll
+/home/pepe/Code/GameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.pdb

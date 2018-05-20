@@ -1,0 +1,8 @@
+POST http://localhost:5050/api/game HTTP/1.1
+content-type: application/json
+
+{
+    "Id": "1",
+    "Title": "Super Mario",
+    "Platform": "NES"
+}
