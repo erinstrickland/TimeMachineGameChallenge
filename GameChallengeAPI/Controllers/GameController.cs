@@ -12,21 +12,11 @@ namespace GameChallengeAPI.Controllers
     {
         private readonly GameContext _context;
 
-        public GameController(GameContext context)
-        {
-            _context = context;
-        }
+        public GameController(GameContext context) => _context = context;
 
         // GET api/game
         [HttpGet]
-        public IEnumerable<Game> Get()
-        {
-            return new Game[] 
-            { 
-                new Game {Id=1, Title="Super Mario Bros", Platform="NES"}, 
-                new Game {Id=2, Title="The Legend of Zelda", Platform="NES"}            
-        };
-        }
+        public IEnumerable<Game> Get() => _context.Game;
 
         // POST api/values
         [HttpPost]

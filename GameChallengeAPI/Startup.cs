@@ -25,8 +25,7 @@ namespace GameChallengeAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<GameContext>(opt =>
-            opt.UseInMemoryDatabase("Game"));
+            services.AddDbContext<GameContext>(opt => opt.UseInMemoryDatabase("Game"));
             services.AddMvc();
         }
 

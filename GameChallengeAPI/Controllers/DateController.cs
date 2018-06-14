@@ -11,9 +11,6 @@ namespace GameChallengeAPI.Controllers
     {
         // GET api/date
         [HttpGet]
-        public DateTime Get()
-        {
-            return DateTime.Today;
-        }
+        public DateTime Get() => DateTime.Today;
     }
 }
