@@ -2,7 +2,7 @@ POST http://localhost:5050/api/game HTTP/1.1
 content-type: application/json
 
 {
-    "Id": "2",
+    "Id": "3",
     "Title": "Zelda",
     "Platform": "NES"
 }

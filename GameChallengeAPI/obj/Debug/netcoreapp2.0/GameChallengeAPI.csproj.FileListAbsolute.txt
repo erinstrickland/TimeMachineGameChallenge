@@ -9,3 +9,14 @@
 /home/pepe/Code/GameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.AssemblyInfo.cs
 /home/pepe/Code/GameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.dll
 /home/pepe/Code/GameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.pdb
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.deps.json
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.runtimeconfig.json
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.runtimeconfig.dev.json
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.dll
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/bin/Debug/netcoreapp2.0/GameChallengeAPI.pdb
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.csprojAssemblyReference.cache
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.csproj.CoreCompileInputs.cache
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.AssemblyInfoInputs.cache
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.AssemblyInfo.cs
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.dll
+/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/obj/Debug/netcoreapp2.0/GameChallengeAPI.pdb

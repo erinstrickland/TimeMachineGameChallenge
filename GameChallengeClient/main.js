@@ -1,8 +1,10 @@
 import React from 'react'
-import Display from './display'
+import Games from './components/games'
 import ReactDOM from 'react-dom'
 
+const game = { Id: '1', Title: 'Zelda', Platform: 'NES' }
+
 ReactDOM.render(
-    <Display/>,
+    <Games game={game} />,
     document.getElementById('root')
   )
