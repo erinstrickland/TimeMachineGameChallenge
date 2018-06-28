@@ -27,6 +27,7 @@ namespace GameChallengeAPI
         {
             services.AddDbContext<GameContext>(opt => opt.UseInMemoryDatabase("Game"));
             services.AddMvc();
+            services.AddCors(x => x.AddPolicy("ReactApp", o => o.AllowAnyOrigin()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

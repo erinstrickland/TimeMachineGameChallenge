@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using GameChallengeAPI.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GameChallengeAPI.Controllers
 {
+
     [Route("api/[controller]")]
+    [EnableCors("ReactApp")]
     public class GameController : Controller
     {
         private readonly GameContext _context;
