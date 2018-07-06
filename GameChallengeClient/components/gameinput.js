@@ -20,9 +20,8 @@ class GameInput extends React.PureComponent {
     }
   
     handleSubmit(event) {
-        alert('A game was submitted: ' + this.state.game + '  ' + this.state.platform)
+        alert(`A game was submitted: ${this.state.game } \n Platform:  ${this.state.platform}`)
         postData('/api/game', {
-            Id: "6",
             Title: this.state.game,
             Platform: this.state.platform
         })
