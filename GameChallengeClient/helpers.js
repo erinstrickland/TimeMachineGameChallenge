@@ -8,7 +8,6 @@ function postData(url, data) {
     method: 'POST',
     mode: 'cors'
   })
-  .then(response => response.json())
 }
 
 export default postData
