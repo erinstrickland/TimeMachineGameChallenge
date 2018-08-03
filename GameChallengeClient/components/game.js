@@ -10,16 +10,12 @@ const GameItem = styled.div`
 display: inline;
 margin: 10px;
 `
-
-class Game extends React.PureComponent {
-    //Divs that the list feeds into to render the indv components
-    render() {
-        return <Container>
-            <GameItem id="title">{this.props.game.title}</GameItem>
-            on
-            <GameItem id="platform">{this.props.game.platform}</GameItem>
-        </Container>
-    }
+const Game = ({game: { title, platform }}) => {
+    return <Container>
+        <GameItem id="title">{title}</GameItem>
+        on
+            <GameItem id="platform">{platform}</GameItem>
+    </Container>
 }
 
 export default Game

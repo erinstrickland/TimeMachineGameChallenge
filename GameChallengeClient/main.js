@@ -1,6 +1,8 @@
 import React from 'react'
 import Games from './components/games'
 import ReactDOM from 'react-dom'
+import store from './react-state'
+import { Provider } from 'react-redux'
 
 let url = 'http://localhost:5050/api/game'
 
@@ -15,7 +17,9 @@ const main = async () => {
   }
 
   ReactDOM.render(
-    <Games games={await gameList()} />,
+    <Provider store={store}>
+      <Games/>
+    </Provider>,
     document.getElementById('root')
   )
 }

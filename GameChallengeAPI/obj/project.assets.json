@@ -12536,23 +12536,23 @@
     ]
   },
   "packageFolders": {
-    "/home/erin/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/home/pepe/.nuget/packages/": {},
+    "/home/pepe/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/GameChallengeAPI.csproj",
+      "projectUniqueName": "/home/pepe/Code/GameChallenge/GameChallengeAPI/GameChallengeAPI.csproj",
       "projectName": "GameChallengeAPI",
-      "projectPath": "/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/GameChallengeAPI.csproj",
-      "packagesPath": "/home/erin/.nuget/packages/",
-      "outputPath": "/home/erin/Code/TimeMachineGameChallenge/GameChallengeAPI/obj/",
+      "projectPath": "/home/pepe/Code/GameChallenge/GameChallengeAPI/GameChallengeAPI.csproj",
+      "packagesPath": "/home/pepe/.nuget/packages/",
+      "outputPath": "/home/pepe/Code/GameChallenge/GameChallengeAPI/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "/home/pepe/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/erin/.nuget/NuGet/NuGet.Config"
+        "/home/pepe/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
