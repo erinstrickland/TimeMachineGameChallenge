@@ -1,8 +1,8 @@
 import reducers from './reducers'
 import { createStore } from 'redux'
-import Moment from 'moment'
+import moment from 'moment'
 
-const initialState = { games: [], date: Moment('1985-9-13').set() }
+const initialState = { games: [], date: moment("09-13-1985", "MM-DD-YYYY").toISOString() }
 
 const mainReducer = (state = initialState, action) => {
     const reducer = reducers[action.type]

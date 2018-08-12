@@ -1,8 +1,7 @@
 import React from 'react'
 import postData from '../helpers'
 import styled from 'styled-components'
-import ShowDate from './date'
-import Moment from 'moment'
+import moment from 'moment'
 import { callReducer } from '../react-state';
 
 const Container = styled.div`
@@ -49,7 +48,7 @@ class GameInput extends React.PureComponent {
         this.setState({ platform: '' })
       })
       .then(() => {
-        callReducer('changeDate', this.props.date.add(1, 'months'))
+        callReducer('changeDate', moment(this.props.date).add(1, 'months'))
       })
 
       .catch(error => console.error(error))
@@ -57,6 +56,11 @@ class GameInput extends React.PureComponent {
   }
 
   render() {
+    const { title, platform } = this.state
+    const isEnabled =
+      title.length > 0 &&
+      platform.length > 0
+      
     return (
       <Container>
         <form onSubmit={this.handleSubmit}>
@@ -75,9 +79,9 @@ class GameInput extends React.PureComponent {
           </label></NonFlexibleWidth>
             <input id="Platform" type="text" name="platform" value={this.state.platform} onChange={this.handleChange} />
           </Input>
-          <input type="submit" value="Submit" />
+          <button disabled={!isEnabled}>Submit</button>
         </form>
-      </Container>
+      </Container> 
     )
   }
 }
