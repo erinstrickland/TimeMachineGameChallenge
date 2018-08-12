@@ -1,6 +1,9 @@
 import React from 'react'
 import postData from '../helpers'
 import styled from 'styled-components'
+import ShowDate from './date'
+import Moment from 'moment'
+import { callReducer } from '../react-state';
 
 const Container = styled.div`
   text-align: center;
@@ -44,6 +47,9 @@ class GameInput extends React.PureComponent {
       .then(() => {
         this.setState({ title: '' })
         this.setState({ platform: '' })
+      })
+      .then(() => {
+        callReducer('changeDate', this.props.date.add(1, 'months'))
       })
 
       .catch(error => console.error(error))
